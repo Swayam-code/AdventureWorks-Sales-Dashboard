@@ -10,7 +10,7 @@ The 4 CSV data tables are the output of the SQL queries, where I clean the table
 
 Once the cleaned data tables have been exported as CSVs, I import the 4 CSVs and the Excel worksheet into PowerBI, where I link the tables together in the "Model" side tab:
 
-![portfolio_1-image-data_model](https://user-images.githubusercontent.com/122973220/213426036-5aa569b0-9f8d-4b82-bbb2-2d242e2c7e09.jpg)
+![Data Model](https://raw.githubusercontent.com/Swayam-code/AdventureWorks-Sales-Dashboard/main/images/data_model.jpg)
 
 I then further process the data in Power Query ("Transform data" on the Home tab), renaming columns, changing columns' data type etc. and bring the columns into a format suitable for visualisation.
 
@@ -18,15 +18,15 @@ Finally, I visualise the data as an interactive 3-page dashboard in PowerBI. I a
 
 **Page 1 - AdventureWorks Sales Overview**
 
-![portfolio_1-image-adventure_works_1](https://user-images.githubusercontent.com/122973220/213424939-2e4614c7-28f2-4f25-9691-e53f7aa9f368.jpg)
+![Sales Overview Dashboard](https://raw.githubusercontent.com/Swayam-code/AdventureWorks-Sales-Dashboard/main/images/sales_overview.jpg)
 
 **Page 2 - Sales by Customer**
 
-![portfolio_1-image-adventure_works_2](https://user-images.githubusercontent.com/122973220/213426418-36348415-aa68-42e7-90a2-81b0306cd30f.jpg)
+![Customer Sales Dashboard](https://raw.githubusercontent.com/Swayam-code/AdventureWorks-Sales-Dashboard/main/images/customer_sales.jpg)
 
 **Page 3 - Sales by Product**
 
-![portfolio_1-image-adventure_works_3](https://user-images.githubusercontent.com/122973220/213426517-39db89b9-88e1-4241-9844-bd65cfadb686.jpg)
+![Product Sales Dashboard](https://raw.githubusercontent.com/Swayam-code/AdventureWorks-Sales-Dashboard/main/images/product_sales.jpg)
 
 
 
@@ -34,7 +34,7 @@ Finally, I visualise the data as an interactive 3-page dashboard in PowerBI. I a
 
 There are 3 project files (1 SQL, 1 PowerBI and 1 PDF) and 5 data table files (4 CSVs and 1 Excel Worksheet) in this repository.
 
-I am unable to upload the full "AdventureWorks Data Warehouse version 2019" file (99 MB) here on my GitHub due to file size limit of 25 MB. Here is the download link to the original dataset on Microsoft's GitHub: https://github.com/Microsoft/sql-server-samples/releases/download/adventureworks/AdventureWorksDW2019.bak (Original Microsoft Learn link is available in my SQL script file.)
+I am unable to upload the full "AdventureWorks Data Warehouse version 2019" file (99 MB) here on my GitHub due to file size limit of 25 MB. Here is the download link to the original dataset on Microsoft's GitHub: https://github.com/microsoft/sql-server-samples/releases/download/adventureworks/AdventureWorksDW2019.bak (Original Microsoft Learn link is available in my SQL script file.)
 
 This file is in backup file format (.bak) so I went into Microsoft SQL Server Management Studio and restored the backup file, allowing access to the full dataset. I then ran this SQL script by TechTalkCorner to update some columns like dates in the dataset: https://github.com/techtalkcorner/SampleDemoFiles/blob/master/Database/AdventureWorks/Update_AdventureWorksDW_Data.sql
 
